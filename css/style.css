@@ -3,9 +3,16 @@
 }
 
 .container-fluid {
-    margin-left: 20px;
+    padding: 10px;
 }
 
-body{
-    background-color: lightgrey;
+body {
+    background-color:lightgrey;
+    padding: 20px;
+    font-family: Arial;
 }
+
+.main {
+    max-width: 100%;
+    margin: auto;
+  }
