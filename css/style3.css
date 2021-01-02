@@ -2,8 +2,14 @@
     font-size: x-large;
 }
 
+
+
 .container-fluid {
     margin-left: 20px;
+    }
+
+body{
+        background-color: lightgrey;
     }
 
 .wrapper {

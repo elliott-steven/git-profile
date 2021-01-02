@@ -3,8 +3,12 @@
 }
 
 .container-fluid {
-    margin-left: 10px;
+    margin-left: 20px;
     }
+
+  body{
+    background-color: lightgrey;
+  }
 
 .wrapper {
   position: absolute;
