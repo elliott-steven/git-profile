@@ -1,26 +1,24 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My About Me Page</title>
-
-    <!-- This is the bootstrap reference -->
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-    <!--This is the Roboto font i want to use-->
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-    <!-- This is my stylesheet-->
-
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <!--Make the page responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!--This is the bootstrap cdn-->
+        <link rel="stylesheet" type="text/css"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+        <!--Font Awesome CDN-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+            integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+            crossorigin="anonymous" />
+        <!--I like this font-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <!-- This is my stylesheet-->
+        <link rel="stylesheet" type="text/css" href="./css/style2.css">
+    </head>
 
 <body>
     <!--This container will include the header and other page links-->
@@ -52,7 +50,7 @@
             <h4>A Little About Me</h4>
 
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-auto">
 
                     <!--My headshot image-->
 
@@ -63,12 +61,13 @@
 
                         <!--Some bacon ipsum placeholder text-->
 
-                        <div class="col-md-9">
+                        <div class="col-md-8">
                             <p>
                                 My name is Steven Elliott. I come from a family of developers and decided i could join
                                 in. Who knows, maybe we can come up with something as a family and make some money. Most
                                 of my work experience is Customer Support or even Tech Support at times. I was a
-                                debugger for a short while but felt i didn't know enough to continue that path. I think i
+                                debugger for a short while but felt i didn't know enough to continue that path. I think
+                                i
                                 have what it takes to contribute and be successfully in a full stack development career.
                             </p>
                             <p>
@@ -106,7 +105,12 @@
 
 <footer class="footer fixed-bottom bg-dark">
     <div class="container">
-        <span class="text-muted">Thanks for visiting my page!</span>
+        <a href="https://www.linkedin.com/in/stevenelliott3/">
+            <i class="fab fa-linkedin"> Vist my LinkedIn</i>
+        </a>
+        <a href="https://github.com/elliott-steven">
+            <i class="fab fa-github-square">Visit my GitHub</i>
+        </a>
     </div>
 </footer>
 

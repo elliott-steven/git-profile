@@ -1,25 +1,23 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio Page</title>
-
-    <!-- This is the bootstrap reference -->
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-    <!--This is the Roboto font i want to use-->
-
+    <!--Make the page responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--This is the bootstrap cdn-->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <!--I like this font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
     <!-- This is my stylesheet-->
-
     <link rel="stylesheet" type="text/css" href="./css/style2.css">
-
 </head>
 
 <body>
@@ -56,39 +54,34 @@
         <!-- Portfolio Gallery will be 4 thumbnails with responsive effect -->
 
         <div class="row">
-            <div class="column">
+            <div class="col-md-4">
                 <div class="content">
-                    <img src="./img/placeholder-200x200.jpg" alt="Placeholder1" style="width:100%">
-                    <h3>Come back soon</h3>
-                    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas
-                        oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                    <a href="https://elliott-steven.github.io/project1-videogamesearch/"><img
+                            src="./img/portfolio-project1.png" alt="Project1" style="width:100%"></a>
+                    <h3>Video Game Search</h3>
+                    <p>We created a search engine that can find image and videos for your favorite video games.</p>
                 </div>
             </div>
-            <div class="column">
+            <div class="col-md-4">
                 <div class="content">
-                    <img src="./img/placeholder-200x200.jpg" alt="Placeholder2" style="width:100%">
-                    <h3>Come back soon</h3>
-                    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas
-                        oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                    <a href="https://elliott-steven.github.io/workdaycalendar-homework5/"><img
+                            src="./img/portfolio-homework5.png" alt="Work Day Calendar" style="width:100%"></a>
+                    <h3>Work Day Calendar</h3>
+                    <p>I created a simple calendar application to allow a user to save events for each hour of the day.
+                    </p>
                 </div>
             </div>
-            <div class="column">
+            <div class="col-md-4">
                 <div class="content">
-                    <img src="./img/placeholder-200x200.jpg" alt="Placeholder3" style="width:100%">
-                    <h3>Come back soon</h3>
-                    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas
-                        oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                    <a href="https://elliott-steven.github.io/weatherAPI-homework6/"><img
+                            src="./img/portfolio-homework6.png" alt="Weather Dashboard" style="width:100%"></a>
+                    <h3>Weather Dashboard</h3>
+                    <p>I used OpenWeather API to create an application to search local weather conditions as well as a
+                        5-day forecast.</p>
                 </div>
             </div>
-            <div class="column">
-                <div class="content">
-                    <img src="./img/placeholder-200x200.jpg" alt="Placeholder4" style="width:100%">
-                    <h3>Come back soon</h3>
-                    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas
-                        oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-                </div>
-            </div>
-            
+
+
             <!-- End Main -->
 
         </div>
@@ -98,7 +91,12 @@
 
 <footer class="footer fixed-bottom bg-dark">
     <div class="container">
-        <span class="text-muted">Thanks for visiting my page!</span>
+        <a href="https://www.linkedin.com/in/stevenelliott3/">
+            <i class="fab fa-linkedin"> Vist my LinkedIn</i>
+        </a>
+        <a href="https://github.com/elliott-steven">
+            <i class="fab fa-github-square">Visit my GitHub</i>
+        </a>
     </div>
 </footer>
 
