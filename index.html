@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <!--Make the page responsive-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <!--This is the bootstrap cdn-->
-        <link rel="stylesheet" type="text/css"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
-        <!--Font Awesome CDN-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-            integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-            crossorigin="anonymous" />
-        <!--I like this font-->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <!-- This is my stylesheet-->
-        <link rel="stylesheet" type="text/css" href="./css/style2.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <!--Make the page responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--This is the bootstrap cdn-->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <!--I like this font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- This is my stylesheet-->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
 
 <body>
     <!--This container will include the header and other page links-->
 
     <div class="header-container">
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar fixed-top navbar-dark bg-dark">
             <div class="container justify-content-center">
                 <ul class="nav">
                     <li class="nav-item">
@@ -42,12 +42,14 @@
         </nav>
     </div>
 
+
+
     <!--This is the main bio using two columns-->
 
-    <div class="main">
+    <div class="main mt-5">
         <div class="container justify-content-center">
-            <h1>Steven Elliott</h1>
-            <h4>A Little About Me</h4>
+
+            <h3>A Little About Me</h3>
 
             <div class="row">
                 <div class="col-md-auto">
@@ -103,15 +105,32 @@
 
 <!--This is the sticky footer-->
 
-<footer class="footer fixed-bottom bg-dark">
-    <div class="container">
-        <a href="https://www.linkedin.com/in/stevenelliott3/">
-            <i class="fab fa-linkedin"> Vist my LinkedIn</i>
-        </a>
-        <a href="https://github.com/elliott-steven">
-            <i class="fab fa-github-square">Visit my GitHub</i>
-        </a>
-    </div>
-</footer>
+<div class="footer-container">
+    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+        <div class="container justify-content-center">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/stevenelliott3/">
+                        <i class="fab fa-linkedin">  LinkedIn</i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="https://github.com/elliott-steven">
+                        <i class="fab fa-github-square">  GitHub</i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <i class="fab fa-phone-square">Cell: (415) 933-0272</i>
+                </li>
+
+                <li class="nav-item">
+                    <a href="mailto:steven.elliott@live.com"></a>
+                    <i class="fab fa-envelope-open">steven.elliott@live.com</i></a>
+                </li>
+            </ul>
+    </nav>
+</div>
 
 </html>
